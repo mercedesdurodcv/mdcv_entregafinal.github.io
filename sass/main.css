@@ -1,0 +1,451 @@
+#body {
+  color: #1c1c1c;
+  font-family: "Sora", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#body .container-full {
+  width: 100%;
+  overflow: hidden;
+  /* INICIO HEADER ------------------------------------ */
+  /* FIN HEADER ------------------------------------ */
+  /* ENCABEZADOS ------------------------------------ */
+  /* FIN ENCABEZADOS ------------------------------------ */
+  /* ENCABEZADOS BRANDING ---------------------------- */
+  /* CARRUSEL MUESTRAS ------------------------------------ */
+  /* CONTACTO ------------------------------------ */
+  /* MAPA ------------------------------------ */
+  /* FOOTER ------------------------------------ */
+  /* RESPONSIVE ---------------------------------------- */
+  /* TABLET */
+  /* MOBILE */
+}
+#body .container-full a {
+  text-decoration: none;
+}
+#body .container-full header {
+  width: 100%;
+  z-index: 50000;
+  /* INICIO NAV ------------------------------------ */
+  /* FIN NAV ------------------------------------ */
+}
+#body .container-full header .musicOff {
+  display: none;
+}
+#body .container-full header .musica {
+  height: 25px;
+  display: flex;
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+  font-size: 10px;
+  justify-content: space-between;
+  padding: 0 15px 0;
+}
+#body .container-full header .musica .play {
+  float: right;
+  display: flex;
+}
+#body .container-full header .musica .play .fa-music {
+  padding: 0 5px;
+}
+#body .container-full header .musica p {
+  margin: auto 0;
+}
+#body .container-full header .musica .spotify {
+  color: #fafafa;
+  margin: auto 0;
+  padding: 0 5px;
+}
+#body .container-full header .musica .spotify:hover {
+  color: #a9f17b;
+  transition: 0.3s;
+}
+#body .container-full header .navScroll {
+  background-color: #a9f17b;
+  font-size: 12px;
+}
+#body .container-full header nav {
+  transition: 0.5s;
+  background-color: transparent;
+}
+#body .container-full header nav .burguerMenu {
+  width: 25px;
+}
+#body .container-full header nav a {
+  text-decoration: none;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0 10px;
+}
+#body .container-full header nav a:hover {
+  color: #455aff;
+  transition: 0.3s;
+}
+#body .container-full header nav #navbarNav {
+  justify-content: space-between;
+}
+#body .container-full header nav #navbarNav #burguerMenu {
+  border: none;
+}
+#body .container-full header nav #navbarNav #burguerMenu:focus {
+  border: none;
+}
+#body .container-full header nav #navbarNav .menu1 {
+  margin: 0px;
+}
+#body .container-full header nav #navbarNav .menu1 #inicio {
+  padding-left: 0px;
+}
+#body .container-full header nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+#body .container-full header nav ul li {
+  display: inline;
+}
+#body .container-full .encabezado {
+  padding-top: 25px;
+  display: flex;
+  background-color: #fafafa;
+}
+#body .container-full .encabezado article {
+  width: 50%;
+  height: auto;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: inherit;
+}
+#body .container-full .encabezado article a {
+  margin: auto 0;
+}
+#body .container-full .encabezado article a .logo1 {
+  width: 70px;
+}
+#body .container-full .encabezado .me {
+  background-image: url(../img/me.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+#body .container-full .encabezado .desk {
+  background-image: url(../img/escritorio.png);
+  background-size: cover;
+  background-position: top center;
+  filter: grayscale(100%);
+  opacity: 50%;
+}
+#body .container-full .encabezado .port {
+  background-image: url(../img/pexels-stacey-koenitz-r-2425011.jpg);
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(100%);
+  opacity: 50%;
+}
+#body .container-full .encabezado #contact {
+  background-image: url(../img/hablamos.jpg);
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(100%);
+}
+#body .container-full .encabezadoPoletto {
+  height: auto;
+  background-color: #6576f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#body .container-full .encabezadoPoletto img {
+  width: 100%;
+}
+#body .container-full .triadaPoletto1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#body .container-full .triadaPoletto1 article {
+  width: 100%;
+}
+#body .container-full .triadaPoletto1 article img {
+  width: 100%;
+}
+#body .container-full .duoPoletto1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#body .container-full .duoPoletto1 article {
+  width: 100%;
+}
+#body .container-full .duoPoletto1 article img {
+  width: 100%;
+}
+#body .container-full .polettoLogos {
+  display: flex;
+}
+#body .container-full .polettoLogos img {
+  width: 100%;
+}
+#body .container-full .servicios {
+  background-color: #a9f17b;
+  height: 70px;
+  width: 100%;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 15px;
+}
+#body .container-full .servicios #owlServ {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+#body .container-full .servicios #owlServ .owl-nav {
+  display: none;
+}
+#body .container-full .servicios #owlServ div {
+  text-align: center;
+}
+#body .container-full .servicios #owlServ h2 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0px;
+}
+#body .container-full .muestras {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto;
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+  height: auto;
+  justify-content: stretch;
+  background-color: #1c1c1c;
+}
+#body .container-full .muestras article {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  filter: grayscale(100%);
+}
+#body .container-full .muestras article:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+}
+#body .container-full .muestras article img {
+  width: 100%;
+  height: 100%;
+}
+#body .container-full .accion {
+  background-image: url(../img/accion.png);
+  background-size: cover;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+#body .container-full .accion .bajada {
+  margin: 0 auto;
+  text-align: center;
+}
+#body .container-full .accion .bajada h2 {
+  margin: 0px 0px 15px;
+  font-size: 30px;
+  color: #a9f17b;
+  font-weight: 100;
+}
+#body .container-full .accion .bajada a {
+  color: #1c1c1c;
+  background-color: #a9f17b;
+  color: #1c1c1c;
+  display: inline-block;
+  padding: 20px 35px;
+  border-radius: 50px;
+  font-size: 28px;
+  font-weight: 300;
+}
+#body .container-full .accion .bajada a p {
+  margin: 0px;
+}
+#body .container-full .aboutMdcv {
+  background-color: #a9f17b;
+  height: 70px;
+  width: 100%;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 15px;
+}
+#body .container-full .aboutMdcv h3 {
+  margin: auto;
+}
+#body .container-full .mdcv-description {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+}
+#body .container-full .mdcv-description .aboutme {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  padding: 70px 50px 30px;
+  margin: 0px;
+  font-size: 15px;
+}
+#body .container-full .mdcv-description .aboutme article {
+  margin: 0px;
+  padding: 0px 30px;
+}
+#body .container-full .mdcv-description .aboutme article p {
+  font-weight: 200;
+}
+#body .container-full #contacto .hablemos h4 {
+  background-color: #a9f17b;
+  border-radius: 50px;
+  padding: 20px;
+}
+#body .container-full #contacto .hablemos .letstalk {
+  mix-blend-mode: screen;
+}
+#body .container-full #contacto .formulario label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 15px;
+}
+#body .container-full #contacto .formulario .campo-form {
+  border-radius: 15px;
+  border: solid 1px #a9f17b;
+  background-color: rgba(28, 28, 28, 0.877);
+}
+#body .container-full #contacto .formulario .send {
+  display: flex;
+  margin: 20px auto;
+  background-color: #a9f17b;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+  color: #1c1c1c;
+  font-weight: 400;
+}
+#body .container-full #contacto .formulario input {
+  color: #f5f5f5;
+  font-weight: 200;
+}
+#body .container-full #contacto .formulario textarea {
+  height: 100px;
+  color: #f5f5f5;
+  font-weight: 200;
+}
+#body .container-full #mapaSitio {
+  background-color: #1c1c1c;
+  padding: 50px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#body .container-full #mapaSitio article {
+  padding: 5px;
+}
+#body .container-full #mapaSitio article h6 {
+  color: #f5f5f5;
+}
+#body .container-full #mapaSitio article a p {
+  margin: 5px 0px;
+}
+#body .container-full footer {
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #a9f17b;
+  height: 75px;
+  padding-top: 20px;
+}
+#body .container-full footer .redes a {
+  color: #a9f17b;
+  padding: 5px;
+  margin: 0px;
+}
+#body .container-full footer .redes a:hover {
+  color: #fafafa;
+  transition: 0.3s;
+}
+#body .container-full footer p {
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+@media (max-width: 991px) {
+  #body .container-full nav .navbar-collapse {
+    margin-top: 15px;
+  }
+  #body .container-full nav .menu1, #body .container-full nav .menu2 {
+    margin: 0px;
+  }
+  #body .container-full nav .menu1 ul, #body .container-full nav .menu2 ul {
+    margin: 0px;
+  }
+  #body .container-full nav .menu1 ul li, #body .container-full nav .menu2 ul li {
+    display: block;
+  }
+  #body .container-full nav .menu1 ul li a, #body .container-full nav .menu2 ul li a {
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  #body .container-full .encabezado #espacioLogo {
+    display: none;
+  }
+  #body .container-full .encabezado #me, #body .container-full .encabezado #desk, #body .container-full .encabezado #port, #body .container-full .encabezado #contact {
+    width: 100%;
+  }
+  #body .container-full .muestras {
+    grid-template-columns: auto auto auto;
+  }
+  #body .container-full .mdcv-description #aboutme {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #body .container-full .mdcv-description #aboutme article {
+    padding: 30px;
+  }
+  #body .container-full .bajada-hablamos {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  #body .container-full header .musica p {
+    margin: auto auto;
+  }
+  #body .container-full header .musica .play {
+    display: none;
+  }
+  #body .container-full .encabezado article {
+    height: 70vh;
+  }
+  #body .container-full .accion {
+    height: 255px;
+  }
+  #body .container-full .accion .bajada h2 {
+    font-size: 25px;
+  }
+  #body .container-full .accion .bajada a {
+    font-size: 20px;
+    padding: 13px 25px;
+  }
+  #body .container-full #aboutme {
+    padding: 40px 20px;
+  }
+  #body .container-full #mapaSitio {
+    font-size: 8px;
+  }
+}
+@media (max-width: 320px) {
+  #body .container-full .musica p {
+    font-size: 8px;
+  }
+  #body .container-full #mapaSitio {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
